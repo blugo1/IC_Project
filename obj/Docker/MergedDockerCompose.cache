@@ -1,0 +1,7 @@
+services:
+  ic_project:
+    build:
+      context: /Users/brandolugo/Developer/vsprojects/IC_Project
+      dockerfile: IC_Project/Dockerfile
+    image: icproject
+version: '3.4'

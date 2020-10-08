@@ -1,0 +1,28 @@
+services:
+  ic_project:
+    build:
+      context: /Users/brandolugo/Developer/vsprojects/IC_Project
+      dockerfile: IC_Project/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: IC_Project
+      target: base
+    container_name: IC_Project
+    entrypoint: tail -f /dev/null
+    environment:
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: icproject:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/netcoreapp3.1/IC_Project.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    tty: true
+    volumes:
+    - /Users/brandolugo/Developer/vsprojects/IC_Project/IC_Project:/app:rw
+    - /Users/brandolugo/vsdbg/vs2017u5:/remote_debugger:rw
+    - /usr/local/share/dotnet/sdk/NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - /Users/brandolugo/.nuget/packages:/root/.nuget/packages:ro
+version: '3.4'

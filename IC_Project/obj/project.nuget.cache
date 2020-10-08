@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "YNuU6WmCgo28zSxnYHw8F/yG4FZLMoRgWd815nvXW3dswxnJi8t8fhSj5sxIJjnhxxkw2XL4Wm4gb1OvPqio1g==",
+  "success": true,
+  "projectFilePath": "/Users/brandolugo/Developer/vsprojects/IC_Project/IC_Project/IC_Project.csproj",
+  "expectedPackageFiles": [
+    "/Users/brandolugo/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/Users/brandolugo/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/Users/brandolugo/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/Users/brandolugo/.nuget/packages/system.configuration.configurationmanager/4.7.0/system.configuration.configurationmanager.4.7.0.nupkg.sha512",
+    "/Users/brandolugo/.nuget/packages/system.data.odbc/4.7.0/system.data.odbc.4.7.0.nupkg.sha512",
+    "/Users/brandolugo/.nuget/packages/system.data.oledb/4.7.1/system.data.oledb.4.7.1.nupkg.sha512",
+    "/Users/brandolugo/.nuget/packages/system.diagnostics.performancecounter/4.7.0/system.diagnostics.performancecounter.4.7.0.nupkg.sha512",
+    "/Users/brandolugo/.nuget/packages/system.drawing.common/4.7.0/system.drawing.common.4.7.0.nupkg.sha512",
+    "/Users/brandolugo/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "/Users/brandolugo/.nuget/packages/system.security.cryptography.protecteddata/4.7.0/system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
+    "/Users/brandolugo/.nuget/packages/system.security.permissions/4.7.0/system.security.permissions.4.7.0.nupkg.sha512",
+    "/Users/brandolugo/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
+    "/Users/brandolugo/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

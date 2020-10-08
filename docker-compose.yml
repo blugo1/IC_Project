@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ic_project:
+    image: ${DOCKER_REGISTRY-}icproject
+    build:
+      context: .
+      dockerfile: IC_Project/Dockerfile

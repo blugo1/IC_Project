@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{04829E74-6D31-4D8F-BDC2-ABFAE7C3CF2C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IC_Project/Program.cs">
+    <Files>
+      <File FileName="IC_Project/BillsOutput.txt" Line="1" Column="40" IsPinned="True" />
+      <File FileName="IC_Project/BillFile.xml" Line="89" Column="24" IsPinned="True" />
+      <File FileName="IC_Project/Program.cs" Line="60" Column="13" />
+      <File FileName="IC_Project/BillFile-10062020.rpt" Line="87" Column="15" />
+      <File FileName="IC_Project/BillingReport.txt" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IC_Project" expanded="True">
+            <Node name="IC_Project" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.IC__Project PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
